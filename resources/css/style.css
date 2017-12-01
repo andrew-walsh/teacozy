@@ -30,3 +30,33 @@ nav a {
   font-size: 22px;
   color: seashell;
 }
+
+.content {
+  display: flex;
+  position: absolute;
+  top: 69px;
+  justify-content: center;
+  width: 100%;
+}
+
+.mission {
+  text-align: center;
+  background-image: url("../../resources/images/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mission-info {
+  background-color: black;
+}
+
+.mission-info h2 {
+  margin-top: 15px;
+}
+
+.mission-info h4 {
+  margin-bottom: 15px;
+}
