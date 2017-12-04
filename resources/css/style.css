@@ -130,3 +130,10 @@ nav a {
 .contact h5 {
   line-height: 0.25;
 }
+
+footer {
+  display: flex;
+  position: absolute;
+  top: 2400px;
+  padding-left: 20px;
+}
